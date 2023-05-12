@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         registerForKeyboardNotifications()
     }
 
-// Function the recognizes the signal to call the keyboard to appear and the signal to hide the keyboard.
+
     func registerForKeyboardNotifications() {
             NotificationCenter.default.addObserver(self, selector:
             #selector(keyboardWasShown(_:)),
